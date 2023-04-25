@@ -1,0 +1,148 @@
+@import url('https://fonts.cdnfonts.com/css/vorname');
+@import url('https://fonts.cdnfonts.com/css/neue-haas-grotesk-text');
+
+/* Variables */
+:root {
+	--debut: #B3CEAE;
+	--fearless: #F6CA8A;
+	--speaknow: #CDB0D0;
+	--red: #874550;
+	--1989: #B9E5F6;
+	--rep: #969192;
+	--lover: #F6B2CD;
+	--folklore: #CFCBC4;
+	--evermore: #C09079;
+	--midnights: #4B5065;
+	--tbd: #FFFFFF;
+}
+/* End of Variables */
+
+
+*{
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 100%;
+	background-image: url('background.png');
+	background-size: contain;
+	color: var(--dark);
+}
+
+h1{
+	margin-top: 30px;
+	padding: 20px;
+}
+
+table{
+	margin: 10px 0;
+	width: 100%;
+	padding: 10px 50px;
+}
+
+table th{
+	font-size: 20px;
+	text-decoration: bold;
+	padding: 5px;
+}
+
+table td{
+	padding: 20px;
+}
+
+.debut{
+	background-color: var(--debut);
+	font-family: 'Cedarville Cursive', cursive;
+                                                
+}
+
+.fearless{
+	background-color: var(--fearless);
+	font-family: 'Archivo', sans-serif;
+}
+
+.speaknow{
+	background-color: var(--speaknow);
+	font-family: 'Stalemate', cursive;
+}
+
+.red{
+	background-color: var(--red);
+	color: white;
+	font-family: solano-gothic-pro-mvb, sans-serif;
+}
+
+.nine{
+	background-color: var(--1989);
+	font-family: 'Permanent Marker', cursive;
+}
+
+.rep{
+	background-color: var(--rep);
+	font-family: 'UnifrakturCook', cursive;                                               
+}
+
+.lover{
+	background-color: var(--lover);
+	font-family: 'Satisfy', cursive;
+}
+
+.folk{
+	font-family: 'IM Fell DW Pica';
+	background-color: var(--folklore);
+}
+
+.evermore{
+	background-color: var(--evermore);
+	font-family: 'IM Fell DW Pica';
+}
+
+.midnights{
+	background-color: var(--midnights);
+	color: white;
+	font-family: 'Neue Haas Grotesk Text', sans-serif;                                                
+}
+
+.tbd{
+	background-color: var(--tbd);
+}
+
+div{
+	text-align: center;
+}
+
+.heading{
+	text-align: center;
+	font-size: 35px;
+	margin: 20px auto;
+	font-family: 'Neue Haas Grotesk Text', sans-serif;
+
+}
+
+.counter-container{
+	width: 100%;
+}
+
+.counter{
+	width: 200px;
+	height: 150px;
+}
+
+h6{
+	font-size: 25px;
+	margin: 20px;
+}
+
+h3{
+	font-size: 25px;
+}
+
+
+
+@media only screen and (max-width: 999px) {
+  .container {
+    display: none;
+  }
+}
